@@ -39,10 +39,10 @@ remote_state {
   backend = "s3"
   config = {
     encrypt        = true
-    bucket         = "digger-tests-bucket-${local.account_name}-${local.aws_region}"
+    bucket         = "digger-tests-bucket2-${local.account_name}-${local.aws_region}"
     key            = "${path_relative_to_include()}/tf.tfstate"
     region         = local.aws_region
-    dynamodb_table = "tf-locks"
+    # dynamodb_table = "tf-locks"
   }
   generate = {
     path      = "backend.tf"
