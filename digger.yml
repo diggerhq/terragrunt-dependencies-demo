@@ -4,3 +4,13 @@ generate_projects:
     createProjectName: true
     createWorkspace: true
     defaultWorkflow: default
+
+workflows:
+  default:
+    env_vars:
+          state:
+            - name: TFVAR_master_password
+              value_from: TFVAR_master_password
+          commands:
+            - name: TFVAR_master_password
+              value_from: TFVAR_master_password
