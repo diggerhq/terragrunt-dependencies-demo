@@ -35,3 +35,6 @@ inputs = {
   allocated_storage = 100
 }
 
+outputs = {
+  db_url = "the_db_url"
+}

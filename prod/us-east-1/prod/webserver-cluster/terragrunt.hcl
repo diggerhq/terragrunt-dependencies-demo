@@ -37,7 +37,7 @@ dependency "mysql" {
 # inputs get merged with the common inputs from the root and the envcommon terragrunt.hcl
 inputs = {
   instance_type = "t2.medium"
-
+  db_url = dependency.mysql.outputs.db_url
   min_size = 3
   max_size = 3
 }
