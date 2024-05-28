@@ -3,3 +3,4 @@ generate_projects:
     parallel: true
     createProjectName: true
     createWorkspace: true
+    defaultWorkflow: default
