@@ -8,9 +8,9 @@ generate_projects:
 workflows:
   default:
     env_vars:
-          state:
-            - name: TFVAR_master_password
-              value_from: TFVAR_master_password
-          commands:
-            - name: TFVAR_master_password
-              value_from: TFVAR_master_password
+      state:
+        - name: TF_VAR_master_password
+          value_from: TF_VAR_master_password
+      commands:
+        - name: TF_VAR_master_password
+          value_from: TF_VAR_master_password
