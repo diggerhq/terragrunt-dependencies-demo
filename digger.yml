@@ -4,6 +4,7 @@ generate_projects:
     createProjectName: true
     createWorkspace: true
     defaultWorkflow: default
+    executionOrderGroups: true
 
 workflows:
   default:
