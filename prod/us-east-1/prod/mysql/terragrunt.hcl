@@ -34,7 +34,3 @@ inputs = {
   instance_class    = "db.t2.medium"
   allocated_storage = 100
 }
-
-outputs = {
-  db_url = "the_db_url"
-}
