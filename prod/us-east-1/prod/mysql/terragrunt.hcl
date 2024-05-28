@@ -38,3 +38,4 @@ inputs = {
 outputs = {
   db_url = "the_db_url"
 }
+
